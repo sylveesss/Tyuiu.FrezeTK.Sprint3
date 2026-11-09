@@ -1,8 +1,9 @@
 ﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.FrezeTK.Sprint3.Task4.V27.Lib
 {
-    public class DataService
+    public class DataService: ISprint3Task4V27
     {
         public static double Calculate(int startValue, int stopValue)
         {

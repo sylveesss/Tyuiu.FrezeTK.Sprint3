@@ -1,8 +1,9 @@
 ﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.FrezeTK.Sprint3.Task7.V5.Lib
 {
-    public class DataService
+    public class DataService: ISprint3Task7V5
     {
         public static double[] GetMassFunction(int startValue, int stopValue)
         {

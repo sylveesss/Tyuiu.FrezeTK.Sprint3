@@ -1,8 +1,9 @@
 ﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.FrezeTK.Sprint3.Task1.V25.Lib
 {
-    public class DataService
+    public class DataService: ISprint3Task1V25
     {
         public static double GetMultiplySeries(int a, int startValue, int stopValue)
         {

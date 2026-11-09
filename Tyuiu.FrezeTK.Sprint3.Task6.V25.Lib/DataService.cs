@@ -1,8 +1,9 @@
 ﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.FrezeTK.Sprint3.Task6.V25.Lib
 {
-    public class DataService
+    public class DataService: ISprint3Task6V25
     {
         public static int GetSumTheDivisors(int startValue, int stopValue)
         {

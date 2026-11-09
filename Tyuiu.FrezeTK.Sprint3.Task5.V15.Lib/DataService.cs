@@ -1,8 +1,9 @@
 ﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.FrezeTK.Sprint3.Task5.V15.Lib
 {
-    public class DataService
+    public class DataService: ISprint3Task5V15
     {
         public static double GetSumSumSeries(int x, int startValue1, int stopValue1, int startValue2, int stopValue2)
         {

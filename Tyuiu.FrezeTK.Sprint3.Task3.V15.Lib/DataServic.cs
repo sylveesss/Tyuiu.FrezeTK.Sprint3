@@ -1,8 +1,9 @@
 ﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.FrezeTK.Sprint3.Task3.V15.Lib
 {
-    public class DataService
+    public class DataService: ISprint3Task3V15
     {
         public static int GetMinInRowChar(string value, char item)
         {
